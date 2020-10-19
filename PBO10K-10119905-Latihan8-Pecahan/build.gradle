@@ -1,0 +1,14 @@
+apply plugin: 'java'
+apply plugin: 'jacoco'
+apply plugin: 'application'
+
+
+mainClassName = 'PBO10K.NIM10119905.Latihan8.Pecahan.PBO1010119905Latihan8'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testImplementation     'junit:junit:4.13'
+}
